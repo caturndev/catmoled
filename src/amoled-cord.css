@@ -1,5 +1,16 @@
 /* These are stolen from the vencord css-snippets channel. - https://discord.gg/vencord */
 
+/* Round embeds */
+#app-mount .embedFull_b0068a {
+    border: 3px solid;
+    border-radius: 15px;
+}
+
+/* Makes the Discord icon in the top left, shiggy. */
+[data-list-item-id="guildsnav___home"] .childWrapper_f90abb {
+    content: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=256&quality=lossless);
+}
+
 /* Credit to refact0r 
 This enlarges the gifs browser */
 [class^="positionContainer_"] {
